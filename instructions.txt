@@ -1,0 +1,6 @@
+1. "npm init -y" - da instaliramo  package.json
+2. "npm i express"  - da instaliramo  package-lock.json i node modules.(framework za nas server.)
+3. "npm i --save-dev nodemon" .Nodemon nam stalno refresuje stranicu u sacuvava sam,kako mi ne bismo morali.
+4.u package.json u scripts napravim novu skriptu "devStart": "nodemon server.js",  (ovo pokrecemo sa "npm run devStart")
+    -gde je "server.js" folder koji mi pravimo.
+5.Server.js
